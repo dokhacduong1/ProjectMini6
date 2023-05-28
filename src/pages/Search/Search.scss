@@ -1,0 +1,23 @@
+.search{
+    &__header{
+        border: 1px solid #f1efef;
+        border-radius: 4px;
+    }
+    &__item{
+       
+        &-name{
+            
+            width: 100%;
+            border-bottom: 1px solid #f1efef;
+        }
+        &-link{
+            cursor: pointer;
+        }
+    }
+    &__itemBox{
+        
+        &:hover{
+            background-color: #dddddd;
+        }
+    }
+}

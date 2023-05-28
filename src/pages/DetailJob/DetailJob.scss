@@ -1,0 +1,15 @@
+.detailJob{
+    &__header{
+        &-boxitem{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+        &-button{
+            &:hover{
+                background-color: white;
+            }
+        }
+    }
+}

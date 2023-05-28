@@ -1,0 +1,15 @@
+.infoCompany{
+    &__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ddd;
+        &-button{
+            color: black !important;
+            &:hover,&:active{
+                color: #1b1b1b !important;
+                border-color: #1b1b1b !important;
+            }
+        }
+    }
+}

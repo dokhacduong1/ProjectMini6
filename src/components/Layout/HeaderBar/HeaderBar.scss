@@ -1,0 +1,10 @@
+.header{
+    &__bar{
+        &-button{
+            &:hover,&:focus{
+                color: orange !important;
+                border-color: orange !important;
+            }
+        }
+    }
+}
